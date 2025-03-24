@@ -1,8 +1,9 @@
-class BoW:
+class BagofWords:
 
     def __init__(self):
 
         self.matrix = False
+        self.df = False
 
     def tokenize(self,text):
         return text.lower().split()
@@ -35,12 +36,12 @@ class BoW:
         # enumerate -> add counter to each token
         for i , tokens in enumerate(text):
         
-            freq = count_frequency(tokens)
+            freq = self.count_frequency(tokens)
             docs[i] = freq
     
         return docs
 
-    def represent(docs:dict)->dict:
+    def represent(self ,docs:dict)->dict:
         '''
         Input --> dict of dict
         return -> dict of list
@@ -71,20 +72,35 @@ class BoW:
         '''
         Converts Dict into pandas df
         '''
+        if self.df != False:
+            return self.df
         if self.matrix == False:
             print("No Data!!!")
             return None
         
         import pandas as pd
-        df = pd.DataFrame(self.matrix)
-        df.set_index("index")
+        self.df = pd.DataFrame(self.matrix)
+        self.df.set_index("index")
 
-        return df
+        return self.df
 
-    def bow(self):
+    def bow(self , text_list):
         """
         This is All in one method
         Like combination of all of the above methods
         """
 
-        ...
+        text = []
+        for t in text_list :
+            text.append(self.tokenize(t))
+
+        docs = self.create_doc(text)
+
+        # Create Matrix
+        self.matrix = self.represent(docs)
+
+    def show_bag(self):
+        if self.matrix == False:
+            print("No representation!!")
+            return None
+        return self.matrix

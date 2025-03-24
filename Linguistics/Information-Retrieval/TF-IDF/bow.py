@@ -98,6 +98,7 @@ class BagofWords:
 
         # Create Matrix
         self.matrix = self.represent(docs)
+        return self.matrix
 
     def show_bag(self):
         if self.matrix == False:

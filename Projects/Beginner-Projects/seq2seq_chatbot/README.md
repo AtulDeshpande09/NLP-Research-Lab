@@ -53,14 +53,8 @@ AgriBot/
 
 ## ✅ **Setup Instructions**
 
-### 🧪 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/agri-bot.git
-cd agri-bot
-```
-
-### ⚙️ 2. Backend Setup
+### ⚙️  Backend Setup
 
 ```bash
 cd backend
@@ -83,7 +77,7 @@ python app.py
 
 ---
 
-### 🖥️ 3. Frontend Setup
+### 🖥️  Frontend Setup
 
 ```bash
 cd frontend

@@ -1,0 +1,288 @@
+Barack  B-PERSON
+Obama   I-PERSON
+was     O
+born    O
+in      O
+Hawaii  B-LOC
+in      O
+1961    B-DATE
+.       O
+
+Apple   B-ORG
+released O
+the     O
+iPhone  B-PRODUCT
+in      O
+2007    B-DATE
+.       O
+
+Sundar  B-PERSON
+Pichai  I-PERSON
+became  O
+CEO     O
+of      O
+Google  B-ORG
+in      O
+2015    B-DATE
+.       O
+
+The     O
+Olympics B-EVENT
+were    O
+held    O
+in      O
+Tokyo   B-LOC
+in      O
+2021    B-DATE
+.       O
+
+Amazon  B-ORG
+was     O
+founded O
+by      O
+Jeff    B-PERSON
+Bezos   I-PERSON
+in      O
+Seattle B-LOC
+.       O
+
+Tesla   B-ORG
+unveiled O
+the     O
+Cybertruck B-PRODUCT
+in      O
+2019    B-DATE
+.       O
+
+Marie   B-PERSON
+Curie   I-PERSON
+won     O
+the     O
+Nobel   B-AWARD
+Prize   I-AWARD
+in      O
+Physics B-FIELD
+.       O
+
+Microsoft B-ORG
+headquarters O
+are     O
+in      O
+Redmond B-LOC
+,       O
+Washington B-LOC
+.       O
+
+Lionel  B-PERSON
+Messi   I-PERSON
+joined  O
+Inter   B-ORG
+Miami   I-ORG
+in      O
+2023    B-DATE
+.       O
+
+Mount   B-LOC
+Everest I-LOC
+is      O
+the     O
+highest O
+peak    O
+in      O
+the     O
+world   O
+.       O
+
+Satya   B-PERSON
+Nadella I-PERSON
+became  O
+CEO     O
+of      O
+Microsoft B-ORG
+in      O
+2014    B-DATE
+.       O
+
+The     O
+Eiffel  B-LOC
+Tower   I-LOC
+is      O
+in      O
+Paris   B-LOC
+.       O
+
+Facebook B-ORG
+changed  O
+its      O
+name     O
+to       O
+Meta     B-ORG
+in       O
+2021     B-DATE
+.        O
+
+Serena   B-PERSON
+Williams I-PERSON
+won      O
+the      O
+US       B-EVENT
+Open     I-EVENT
+in       O
+2014     B-DATE
+.        O
+
+The      O
+Amazon   B-LOC
+River    I-LOC
+flows    O
+through  O
+Brazil   B-LOC
+.        O
+
+J.K.     B-PERSON
+Rowling  I-PERSON
+wrote    O
+Harry    B-WORK
+Potter   I-WORK
+in       O
+1997     B-DATE
+.        O
+
+NASA     B-ORG
+launched O
+Apollo   B-PROJECT
+11       I-PROJECT
+in       O
+1969     B-DATE
+.        O
+
+The      O
+Great    B-LOC
+Wall     I-LOC
+of       O
+China    I-LOC
+is       O
+visible  O
+from     O
+space    O
+.        O
+
+Cristiano B-PERSON
+Ronaldo   I-PERSON
+scored    O
+his       O
+800th     O
+goal      O
+in        O
+2021      B-DATE
+.         O
+
+The       O
+Taj       B-LOC
+Mahal     I-LOC
+is        O
+located   O
+in        O
+Agra      B-LOC
+.         O
+
+Samsung   B-ORG
+released  O
+the       O
+Galaxy    B-PRODUCT
+S21       I-PRODUCT
+in        O
+2021      B-DATE
+.         O
+
+Greta     B-PERSON
+Thunberg  I-PERSON
+spoke     O
+at        O
+the       O
+UN        B-ORG
+in        O
+2019      B-DATE
+.         O
+
+The       O
+Amazon    B-ORG
+Prime     I-ORG
+Day       I-ORG
+sale      O
+started   O
+in        O
+2015      B-DATE
+.         O
+
+Roger     B-PERSON
+Federer   I-PERSON
+won       O
+his       O
+20th      O
+Grand     B-EVENT
+Slam      I-EVENT
+title     O
+in        O
+2018      B-DATE
+.         O
+
+The       O
+Sydney    B-LOC
+Opera     I-LOC
+House     I-LOC
+opened    O
+in        O
+1973      B-DATE
+.         O
+
+Alibaba   B-ORG
+was       O
+founded   O
+by        O
+Jack      B-PERSON
+Ma        I-PERSON
+in        O
+China     B-LOC
+.         O
+
+The       O
+World     B-EVENT
+Cup       I-EVENT
+was       O
+held      O
+in        O
+Russia    B-LOC
+in        O
+2018      B-DATE
+.         O
+
+Shakespeare B-PERSON
+wrote      O
+Romeo      B-WORK
+and        I-WORK
+Juliet     I-WORK
+in         O
+1597       B-DATE
+.          O
+
+The        O
+Burj       B-LOC
+Khalifa    I-LOC
+opened     O
+in         O
+Dubai      B-LOC
+in         O
+2010       B-DATE
+.          O
+
+Taylor     B-PERSON
+Swift      I-PERSON
+released   O
+the        O
+album      O
+1989       B-WORK
+in         O
+2014       B-DATE
+.          O
+
